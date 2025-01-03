@@ -1,0 +1,208 @@
+/* Importing Google Font - Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  /* min-height: 100vh; */
+  /* background: url("images/bg.jpg") no-repeat center; */
+}
+
+.message-btn {
+  font-size: 14px;
+  padding: 3px 11px;
+  width: 80%;
+  height: 37px;
+  color: #fff;
+border-radius: 6px;
+font-weight: 500;
+cursor: pointer;
+background: orange;
+border: 1px solid transparent;
+}
+
+.burger{
+  text-align: center;
+  }
+.logo_burger{
+height: 50px;
+width: 50px;
+}
+.food{
+  color: orange;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 27px;
+  text-align: left;
+  padding: 10px;
+  font-weight:800;
+}
+.recipe-container{
+  /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+  /* background-image: linear-gradient(to left, rgba(237, 231, 231, 0), #2a1f14),url("./images/sizzler-recipes.jpg"); */
+  background-image: linear-gradient(to bottom, rgba(255, 247, 247, 0), #463728),url('./images/chickenbriyani1.jpg   ');
+  background-repeat: no-repeat;
+  background-size:cover;
+  /* padding: 17%; */
+  /* border-radius: 0 10px 10px 0; */
+}
+
+.container-recipe{
+  border-radius: 10px !important;
+}
+
+.veg_siz{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  color: orange;
+  font-weight: 500;
+  
+}
+.recipe-des{
+  color: rgb(141, 140, 140);
+  font-size: 12px;
+}
+.getrecipe{
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .recipe-container {
+      height: 15rem;;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .recipe-container {
+      height: 25rem;;
+    }
+  }
+
+  @media only screen and (max-width: 1440px) {
+    .recipe-container {
+      height: 25rem;;
+    }
+  }
+
+  /* @media only screen and (max-width: 1440px) {
+    .veg_siz {
+      height: 15rem;;
+      padding-top: 12rem;
+    }
+  }
+
+  @media only screen and (max-width: 642px) {
+    .veg_siz {
+      height: 10rem;;
+      padding-top: 8rem;
+    }
+  } */
+ .table thead th {
+    border: none !important;
+  }
+  .table td, .table th{
+    border: none !important;
+padding: 0 !important ;
+font-size: 13px !important;
+  }
+
+  /* Login page */
+  
+
+
+.login-container {
+  background-color: #f3f3f3f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* width: 300px; */
+}
+
+.login-container h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #f7b700;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ .pp {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #f7b700;
+  text-align: left;
+  font-weight: bold;
+}
+.login-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #9b9796;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 2px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 35px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 5px;
+  background-color: #f7b700;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.login-container button:hover {
+  background-color: #c49000;
+}
+
+.login-container .signup-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login-container .signup-link a {
+  color: #f7b700;
+  text-decoration: underline;
+}
+
+.login-container .signup-link a:hover {
+  text-decoration: underline;
+}
+
+.login-container .burger{
+  text-align: center;
+  }
+.login-container .logo_burger{
+height: 50px;
+width: 50px;
+}
+
+/* Signup */
+
+.login-container button a{
+  text-decoration: none;
+  color: #fff;
+}
+#Comment{
+  background-color: #f3f3f3f4;
+  color: #000;
+  border-radius: 5px;
+}
